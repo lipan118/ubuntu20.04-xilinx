@@ -19,3 +19,6 @@ export PATH=/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:$PATH
 export LD_PRELOAD=/opt/Xilinx/usb-driver/libusb-driver.so
 impact
 ```
+## 3 
+如果是使用的ise的13.1 ，卸载的话，找到xsetup -uninstall
+如果是使用的ise的14.7，卸载的话，需要找到隐藏文件夹.xinstall/bin/lin64/xsetup -uninstall
